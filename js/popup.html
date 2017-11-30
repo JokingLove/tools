@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	  <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+	  <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	  <style>
+	  	   *{padding: 0;margin: 0;box-sizing: border-box;}
+	  	   .main{margin: 200px;}
+	  	   .main .main-btn{
+	  	   	 width: 200px;
+	  	   	 height: 40px;
+	  	   	 line-height: 40px;
+	  	   	 text-align: center;
+	  	   	 line-height: 40px;
+	  	   	 background: #f3f3f3;
+	  	   	 border: 1px solid #ccc;
+	  	   	 cursor: pointer;
+	  	   	 float: left;
+	  	   	 margin: 50px;
+	  	   }
+	  </style>
+	</head>
+	<body>
+		 
+		
+		<div class="main">
+			<div class="main-btn" title="Popover title"  data-container="body" data-toggle="popover" data-placement="left" 	data-content="左侧的 Popover 中的一些内容">
+				左侧的 Popover
+			</div>
+			<div class="main-btn" title="Popover title"  data-container="body" data-toggle="popover" data-placement="top" 	data-content="上侧的 Popover 中的一些内容">
+				上侧的 Popover
+			</div>
+			<div class="main-btn" title="Popover title"  data-container="body" data-toggle="popover" data-placement="bottom" 	data-content="下侧的 Popover 中的一些内容">
+				下侧的 Popover
+			</div>
+			<div class="main-btn" title="Popover title"  data-container="body" data-toggle="popover" data-placement="right" 	data-content="右侧的 Popover 中的一些内容">
+			   右侧的 Popover
+			</div>
+
+        </div>
+		
+		<script>
+			$(function (){
+			    $(".main .main-btn").popover();
+			});
+		</script>
+
+		&lt;script&gt;
+			alert&#40;111&#41;
+		&lt;/script&gt;
+	</body>
+</html>

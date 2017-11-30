@@ -1,0 +1,6 @@
+*{padding: 0px;margin: 0px;box-sizing: border-box;}
+
+.map{width:805px;height: 617px;position: relative;margin: 20px auto;}
+.map img{position: absolute;top:0px;left:0px;display: block;}
+.map img.map-items{z-index: 3;display: none;}
+.map-text{z-index: 10;}
