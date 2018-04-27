@@ -1,3 +1,2 @@
 #theme: jekyll-theme-cayman
-remote_theme: pages-themes/leap-day
-theme: jekyll-theme-cayman
+remote_theme: mattvh/jekyllthemes
