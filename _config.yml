@@ -1,4 +1,4 @@
 #theme: jekyll-theme-cayman
-remote_theme: mattvh/jekyllthemes
+# remote_theme: mattvh/jekyllthemes  配置任何github上面的 jekyll 主题   user/repository 
 
 theme: jekyll-theme-cayman
