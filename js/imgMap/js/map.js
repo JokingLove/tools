@@ -52,6 +52,19 @@ $(function(){
 						value: 'value2'
 					}
 				]
+			},
+			{
+				title: '光明',
+				data: [
+					{
+						name: '胡老板',
+						value: '是个嘚儿'
+					},
+					{
+						name: '光老板',
+						value: '也是个嘚儿'
+					}
+				]
 			}
 		]
 	});
